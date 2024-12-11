@@ -27,7 +27,7 @@ public:
         , height_(height)
         , buffer_(width * height * 3, 0.0f) {}
 
-    // Modern C++ rule of five
+
     Image(const Image&) = delete;
     Image& operator=(const Image&) = delete;
     Image(Image&&) noexcept = default;
